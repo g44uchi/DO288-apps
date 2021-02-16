@@ -13,7 +13,6 @@ config_s2i
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
 mkdir hoge
-cp -Rf /tmp/src/hoge/*.html ./hoge
 
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
